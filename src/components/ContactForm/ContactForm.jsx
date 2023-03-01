@@ -2,7 +2,7 @@ import { React, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Form, Button, Label, Input } from './ContactForm.styled';
 import { addContact } from 'redux/contacts/slice';
-import { selectContacts } from 'redux/selectors';
+import { selectContacts } from 'redux/contacts/selectors';
 
 const ContactForm = () => {
   const [name, setName] = useState('');
